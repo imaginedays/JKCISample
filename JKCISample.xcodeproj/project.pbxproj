@@ -199,7 +199,7 @@
 				TargetAttributes = {
 					429E09AD1FCE8B1E005DDC9D = {
 						CreatedOnToolsVersion = 9.1;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
 					429E09C51FCE8B1E005DDC9D = {
 						CreatedOnToolsVersion = 9.1;
@@ -430,12 +430,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = 35PWMCP87E;
 				INFOPLIST_FILE = JKCISample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jkci.JKCISample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "22f67f96-ae0e-4038-8dc3-f6ad15cad041";
+				PROVISIONING_PROFILE_SPECIFIER = JKCISample;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -444,12 +446,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = 35PWMCP87E;
 				INFOPLIST_FILE = JKCISample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jkci.JKCISample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "22f67f96-ae0e-4038-8dc3-f6ad15cad041";
+				PROVISIONING_PROFILE_SPECIFIER = JKCISample;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
